@@ -6,13 +6,14 @@ body {
 
 html {
     font-size: 10px;
-    background-color: beige;
+    background-color: wheat;
 }
 
 body {
-    width: 70%;
-    min-width: 800px;
+    min-width: 50%;
     margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h1,
@@ -53,8 +54,8 @@ li {
 
 header {
     margin-bottom: 10px;
-    display: flex;
-    flex-flow: row wrap;
+    text-align: center;
+
 }
 
 body > * {
@@ -66,7 +67,6 @@ main,
 header,
 nav,
 article,
-aside,
 footer,
 section {
     background-color: rgba(255, 99, 71, 1);
@@ -74,13 +74,10 @@ section {
 }
 
 h1 {
-    flex: 5;
     text-transform: uppercase;
 }
 
 header img {
-    display: block;
-    height: 60px;
     padding-top: 20.15px;
 }
 
@@ -115,7 +112,6 @@ nav span {
 
 }
 
-
 main {
     display: flex;
 }
@@ -124,21 +120,11 @@ article {
     flex: 4;
 }
 
-aside {
-    flex: 1;
-    margin-left: 10px;
-    padding: 1%;
-}
-aside a {
-    display: block;
-    float: left;
-    width: 50%;
-}
-
-aside img {
-    max-width: 100%;
-}
-
 footer {
     margin-top: 10px;
+}
+
+.flexbox {
+    display: flex;
+
 }
